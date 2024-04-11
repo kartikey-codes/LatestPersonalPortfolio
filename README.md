@@ -21,7 +21,7 @@ Welcome to my personal portfolio! This project showcases my skills and projects 
 
 ## Features
 
-👉 ** 3D Hero Section**:  
+👉 **3D Hero Section**:  
 Includes a 3D desktop model.
 
 👉 **Interactive Experience and Work Sections**:  
