@@ -2,7 +2,6 @@
 
 Welcome to my personal portfolio! This project showcases my skills and projects in a unique 3D environment.
 
-## Tech Stack
 
 <div>
     <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
@@ -22,8 +21,8 @@ Welcome to my personal portfolio! This project showcases my skills and projects 
 
 ## Features
 
-👉 **Customizable 3D Hero Section**:  
-Includes a 3D desktop model easily customizable to suit specific needs.
+👉 ** 3D Hero Section**:  
+Includes a 3D desktop model.
 
 👉 **Interactive Experience and Work Sections**:  
 Utilizes animations powered by framer motion for engaging user experience.
@@ -31,11 +30,10 @@ Utilizes animations powered by framer motion for engaging user experience.
 👉 **3D Skills Section**:  
 Showcases skills using 3D geometries through three.js and React Three fiber.
 
-👉 **Animated Projects and Testimonials**:  
+👉 **Animated Projects Section**:  
 Features animated sections using framer motion for projects and client testimonials.
 
-👉 **Contact Section with 3D Earth Model**:  
-Integrates a 3D earth model with email functionality powered by emailjs.
+👉 **Contact Section with Custom Map**:  
 
 👉 **3D Stars**:  
 Generate stars progressively at random positions using Three.js for background display.
@@ -45,6 +43,11 @@ Implements cohesive animations throughout the website using framer motion.
 
 👉 **Responsive Design**:  
 Ensures optimal display and functionality across all devices.
+
+and many more, including code architecture and reusability.
+
+👉 **Custom Features**:  
+Features to download Resume & play Music.
 
 and many more, including code architecture and reusability.
 
@@ -63,8 +66,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone git@github.com:adrianhajdin/project_3D_developer_portfolio.git
-cd project_3D_developer_portfolio
+git clone https://github.com/kartikey-codes/LatestPersonalPortfolio.git
+cd LatestPersonalPortfolio
 ```
 
 **Installation**
@@ -90,7 +93,7 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 **Running the Project**
 
 ```bash
-npm run dev
+npm run dev or yarn run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
