@@ -118,51 +118,51 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led development for client project Revkeep, streamlining processes and boosting team productivity by 30% through the suggestion of setting up Github Repository, did over 40 commits and added around 326,951 lines of code in just a span of 5 months.",
+      "Orchestrated project deployment on Digital Ocean droplet and Azure, and attended client meetings for understanding their requirements feedback purposes.",
+      "Developed various modules for Revkeep, including API creation and controllers for data interaction, leveraging different frameworks.",
+      "Integrated FTP technology NPPES API for enhanced functionality in Revkeep."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    "title": "Vice Chairperson",
+    "company_name": "Mozilla Firefox Club",
+    "icon": tesla,
+    "iconBg": "#E6DEDD",
+    "date": "Jan 2021 - Feb 2022",
+    "points": [
+      "Coordinated and successfully completed over 15 technical events, guiding 1000+ students as core committee members.",
+      "Led a team of 6 junior core committee members in building and deploying the club’s website: Mozilla Firefox Club Website.",
+      "Guided juniors on web development, open-source contributions, fostering technical skill development among members."
+    ]
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
