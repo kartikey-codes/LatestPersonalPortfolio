@@ -9,14 +9,14 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="red" />
+      <hemisphereLight intensity={0.15} groundColor='red' />
       <spotLight
         position={[-20, 50, 5]}
         angle={0.12}
         penumbra={1}
         intensity={1}
         castShadow
-        shadow-mapSize={[1024, 1024]}
+        shadow-mapSize={1024}
       />
       <pointLight intensity={0.3} />
       <primitive
@@ -55,7 +55,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop='demand'
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 10, 10], fov: 28 }}
@@ -66,9 +66,9 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2.8}
           minPolarAngle={Math.PI / 2.8}
-          autoRotate={!isMobile} // Disable auto rotation on mobile
+          autoRotate={true}
         />
-        {isMobile ? null : <Computers isMobile={isMobile} />} {/* Don't render on mobile */}
+        <Computers isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
