@@ -166,7 +166,7 @@ const Navbar = () => {
                 {isMusicPlaying ? (
                   // Use your animated music icon (GIF) with background removed
                   <img
-                    src="/src/musicico/music.gif" // Provide the correct path
+                    src="/musicico/music.gif" // Provide the correct path
                     alt="Music"
                     style={{
                       background: "none",
@@ -178,7 +178,7 @@ const Navbar = () => {
                 ) : (
                   // Use a different icon or text when music is paused
                   <img
-                    src="/src/musicico/musicpause.png" // Provide the correct path
+                    src="/musicico/musicpause.png" // Provide the correct path
                     alt="Music"
                     style={{
                       background: "none",
