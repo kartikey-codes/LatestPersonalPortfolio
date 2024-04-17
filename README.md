@@ -107,3 +107,6 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 - **Inspiration and Help**  
   Thanks to [Adrian Hajdin](https://github.com/adrianhajdin) (JS Mastery) for inspiration and his [YouTube video](#) for inspiration and help.
+
+
+"Retro computer" (https://skfb.ly/6URHQ) by dogflesh is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
