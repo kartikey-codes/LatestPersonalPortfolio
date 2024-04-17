@@ -357,7 +357,7 @@ const projects = [
     source_code_link: "https://github.com/Pufffss/PredictMyHealth",
   },
   {
-    name: "PredictMyHealth",
+    name: "LMS Platform",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -378,7 +378,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "PredictMyHealth",
+    name: "MedTalk AI",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -399,7 +399,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "PredictMyHealth",
+    name: "Auto Proxy Connector",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
