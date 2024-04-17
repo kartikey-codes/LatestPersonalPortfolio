@@ -6,6 +6,29 @@ import {
   javascript,
   typescript,
   html,
+  AWS,
+  Azure,
+  Bootstrap,
+  C,
+  CakePHP,
+  Canva,
+  Cloudflare,
+  DigitalOcean,
+  Express,
+  FastAPI,
+  Firebase,
+  Flask,
+  GitHub,
+  Heroku,
+  Jira,
+  Laravel,
+  MySQL,
+  Next,
+  Postman,
+  Python,
+  Selenium,
+  Vercel,
+  YAML,
   css,
   reactjs,
   redux,
@@ -61,23 +84,119 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "React JS",
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "HTML",
+    icon: html,
+  },
+  {
+    name: "AWS",
+    icon: AWS,
+  },
+  {
+    name: "Azure",
+    icon: Azure,
+  },
+  {
+    name: "Bootstrap",
+    icon: Bootstrap,
+  },
+  {
+    name: "C",
+    icon: C,
+  },
+  {
+    name: "CakePHP",
+    icon: CakePHP,
+  },
+  {
+    name: "Canva",
+    icon: Canva,
+  },
+  {
+    name: "Cloudflare",
+    icon: Cloudflare,
+  },
+  {
+    name: "DigitalOcean",
+    icon: DigitalOcean,
+  },
+  {
+    name: "Express",
+    icon: Express,
+  },
+  {
+    name: "FastAPI",
+    icon: FastAPI,
+  },
+  {
+    name: "Firebase",
+    icon: Firebase,
+  },
+  {
+    name: "Flask",
+    icon: Flask,
+  },
+  {
+    name: "GitHub",
+    icon: GitHub,
+  },
+  {
+    name: "Heroku",
+    icon: Heroku,
+  },
+  {
+    name: "Jira",
+    icon: Jira,
+  },
+  {
+    name: "Laravel",
+    icon: Laravel,
+  },
+  {
+    name: "MySQL",
+    icon: MySQL,
+  },
+  {
+    name: "Next",
+    icon: Next,
+  },
+  {
+    name: "Postman",
+    icon: Postman,
+  },
+  {
+    name: "Python",
+    icon: Python,
+  },
+  {
+    name: "Selenium",
+    icon: Selenium,
+  },
+  {
+    name: "Vercel",
+    icon: Vercel,
+  },
+  {
+    name: "YAML",
+    icon: YAML,
+  },
+  {
+    name: "CSS",
+    icon: css,
+  },
+  {
+    name: "ReactJS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
+    name: "Redux",
     icon: redux,
   },
   {
@@ -85,7 +204,7 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   {
@@ -93,20 +212,20 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+  },
+  {
+    name: "Three.js",
+    icon: threejs,
   },
 ];
 
@@ -136,33 +255,6 @@ const experiences = [
       "Guided juniors on web development, open-source contributions, fostering technical skill development among members."
     ]
   },
-  
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
 ];
 
 const testimonials = [
