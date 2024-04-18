@@ -3,6 +3,9 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { github } from "../assets";
 
+// Import styles if defined in another file
+import { styles } from "../styles";
+
 const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
   return (
     <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
@@ -47,6 +50,9 @@ const Works = () => {
   return (
     <>
       <div>
+        {/* Use styles if defined */}
+        <p className={`${styles.sectionSubText} `}>My work</p>
+        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
         <p className='text-[17px] mt-3 text-secondary max-w-3xl leading-[30px]'>
           Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively. (under development)
         </p>
