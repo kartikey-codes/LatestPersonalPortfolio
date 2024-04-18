@@ -1,4 +1,7 @@
 import {
+  Predict,
+  MedTalk,
+  Mozillavit,
   mobile,
   backend,
   creator,
@@ -43,9 +46,10 @@ import {
   shopify,
   carrent,
   jobit,
-  tripguide,
   innovya,
   threejs,
+  Autoproxy,
+  LMS
 } from "../assets";
 
 export const navLinks = [
@@ -286,29 +290,67 @@ const testimonials = [
 
 const projects = [
   {
-    name: "FTP Demo",
+    name: "LMS Platform",
     description:
-      "Owner and maintainer of an Open Source Hacktoberfest repository with over 40+ PRs from 15+ contributors globally,alongside significant traffic influx. Authored a guide on creating FTP servers with PHP.",
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "PHP",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "FTP",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "opensource",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
       {
-        name: "Hacktoberfest",
-        color: "white",
+        name: "clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MUX",
+        color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: LMS,
+    source_code_link: "https://github.com/kartikey-codes/LMS-Platform",
+  },
+  {
+    name: "MedTalk AI",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "FastAPI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spacy",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: MedTalk,
+    demo_link: "https://drive.google.com/file/d/1lWJ9dleLYQXiY3vdUIlXHBBlZxXKi55a/view?usp=sharing",
+    source_code_link: "https://github.com/kartikey-codes/MedTalkAI",
   },
   {
     name: "ShiftBuddy",
@@ -353,71 +395,40 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: Predict,
     source_code_link: "https://github.com/Pufffss/PredictMyHealth",
   },
-  {
-    name: "LMS Platform",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TypeScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/kartikey-codes/LMS-Platform",
-  },
-  {
-    name: "MedTalk AI",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "FastAPI",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Spacy",
-        color: "green-text-gradient",
-      },
-      {
-        name: "NLP",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/kartikey-codes/MedTalkAI",
-  },
+  
+  
   {
     name: "Auto Proxy Connector",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "NSIS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "PYTHON",
         color: "pink-text-gradient",
       },
+      {
+        name: "Cloudflare",
+        color: "white",
+      },
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Autoproxy,
+    demo_link: "https://auto-proxy-connector.vercel.app/",
+    source_code_link: "https://github.com/kartikey-codes/AutoProxyConnector",
   },
   {
     name: "Mozilla Website",
@@ -437,8 +448,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://mozillavit.in/",
+    image: Mozillavit,
+    demo_link: "https://mozillavit.in/",
+  },
+  {
+    name: "FTP Demo",
+    description:
+      "Owner and maintainer of an Open Source Hacktoberfest repository with over 40+ PRs from 15+ contributors globally,alongside significant traffic influx. Authored a guide on creating FTP servers with PHP.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "FTP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "opensource",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Hacktoberfest",
+        color: "white",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
   },
 ];
 

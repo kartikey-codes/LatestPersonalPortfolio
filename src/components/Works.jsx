@@ -2,11 +2,12 @@ import React from "react";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { github } from "../assets";
+import {website} from "../assets";
 
 // Import styles if defined in another file
 import { styles } from "../styles";
 
-const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
+const ProjectCard = ({ name, description, tags, image, source_code_link, demo_link }) => {
   return (
     <div className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
       <div className='relative w-full h-[230px]'>
@@ -17,6 +18,17 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
         />
         <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
           <div
+            onClick={() => window.open(demo_link, "_blank")}
+            className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+          >
+            <img
+              src={website}
+              alt='Try'
+              className='w-1/2 h-1/2 object-contain'
+            />
+            
+          </div>
+          <div
             onClick={() => window.open(source_code_link, "_blank")}
             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
           >
@@ -25,6 +37,7 @@ const ProjectCard = ({ name, description, tags, image, source_code_link }) => {
               alt='source code'
               className='w-1/2 h-1/2 object-contain'
             />
+            
           </div>
         </div>
       </div>
@@ -54,7 +67,7 @@ const Works = () => {
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
         <p className='text-[17px] mt-3 text-secondary max-w-3xl leading-[30px]'>
-          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively. (under development)
+          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
         </p>
       </div>
 

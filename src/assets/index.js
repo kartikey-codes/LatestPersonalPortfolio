@@ -52,10 +52,21 @@ import innovya from "./company/innovya.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Mozillavit from "./Mozillawebsite.png";
+import MedTalk from "./2.jpg";
+import Predict from "./3.jpg";
+import Autoproxy from "./autoproxy.png";
+import LMS from "./LMS.png";
+import website from "./website.jpeg";
 
 export {
+  website,
+  LMS,
+  Autoproxy,
+  Predict,
+  MedTalk,
   logo,
+  Mozillavit,
   backend,
   creator,
   mobile,
@@ -106,5 +117,4 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
 };
