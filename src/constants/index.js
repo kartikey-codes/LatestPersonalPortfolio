@@ -2,10 +2,7 @@ import {
   Predict,
   MedTalk,
   Mozillavit,
-  mobile,
   backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -41,15 +38,14 @@ import {
   git,
   figma,
   docker,
-  meta,
   tesla,
-  shopify,
   carrent,
   jobit,
   innovya,
   threejs,
   Autoproxy,
-  LMS
+  LMS,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -70,19 +66,19 @@ export const navLinks = [
 const services = [
   {
     title: "Full Stack Developer",
-    icon: web,
+    icon: GitHub,
   },
   {
     title: "Ai/Ml Enthusiast",
-    icon: mobile,
+    icon: GitHub,
   },
   {
     title: "Backend Developer",
-    icon: backend,
+    icon: GitHub,
   },
   {
     title: "Content Creator",
-    icon: creator,
+    icon: GitHub,
   },
 ];
 
