@@ -248,7 +248,7 @@ const experiences = [
     "company_name": "Mozilla Firefox Club",
     "icon": tesla,
     "iconBg": "#E6DEDD",
-    "date": "Jan 2021 - Feb 2022",
+    "date": "Jan 2023 - Jan 2024",
     "points": [
       "Coordinated and successfully completed over 15 technical events, guiding 1000+ students as core committee members.",
       "Led a team of 6 junior core committee members in building and deploying the club’s website: Mozilla Firefox Club Website.",
