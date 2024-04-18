@@ -101,12 +101,9 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 
 ## Credits
 
-- **Gaming Desktop PC**  
-  [Gaming Desktop PC](https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66) by [Yolala1232](https://sketchfab.com/Yolala1232)  
+- **Retro Computer**  
+  [Retro Computer](https://skfb.ly/6URHQ) by dogflesh.  
   Licensed under [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
 
 - **Inspiration and Help**  
-  Thanks to [Adrian Hajdin](https://github.com/adrianhajdin) (JS Mastery) for inspiration and his [YouTube video](#) for inspiration and help.
-
-
-"Retro computer" (https://skfb.ly/6URHQ) by dogflesh is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+  Thanks to [Adrian Hajdin](https://github.com/adrianhajdin) (JS Mastery) for inspiration and help.
