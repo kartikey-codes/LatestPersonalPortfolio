@@ -366,16 +366,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kartikey-codes/LMS-Platform",
   },
   {
     name: "MedTalk AI",
@@ -383,20 +383,20 @@ const projects = [
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "FastAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Spacy",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "NLP",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kartikey-codes/MedTalkAI",
   },
   {
     name: "Auto Proxy Connector",
@@ -420,7 +420,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "PredictMyHealth",
+    name: "Mozilla Website",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -438,28 +438,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "PredictMyHealth",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://mozillavit.in/",
   },
 ];
 
